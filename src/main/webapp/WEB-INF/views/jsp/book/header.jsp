@@ -16,14 +16,9 @@
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="/">Spring Web MVC demo</a>
+          <a href="/newBook">Add book</a>
       </div>
-      <div id="navbar" class="nav-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="active">
-            <a href="newBook">Add book</a>
-          </li>
-        </ul>
-      </div>
+
     </div>
   </nav>
 </body>

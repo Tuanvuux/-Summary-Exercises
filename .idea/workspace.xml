@@ -4,7 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a3e6a9-d1e6-402f-9352-d26fe8a855d3" name="Changes" comment="oke" />
+    <list default="true" id="24a3e6a9-d1e6-402f-9352-d26fe8a855d3" name="Changes" comment="oke">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/controller/CartSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/entity/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/main/MainProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/formregistration/session.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/product/Cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/product/Checkout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/product/ProductList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/product/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/configuration/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/configuration/JPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/entity/BookDetailsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/entity/BookDetailsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/entity/BookEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/entity/BookEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/entity/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/entity/CategoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/formregistration/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/formregistration/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/formregistration/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/formregistration/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/main/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/book/book.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/book/book.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/book/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/book/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/book/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/book/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/configuration/JPAConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mvc/configuration/JPAConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/controller/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/entity/BookDetailsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/entity/BookEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/entity/CategoryEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/formregistration/Gender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/formregistration/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/main/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/repository/BookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/repository/CategoryRepository.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,21 +74,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Smart Tomcat.Tomcat9.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/SpringM07/mvc_demo_day1",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Tomcat9.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/SpringM07/TransactionsDay6&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Smart Tomcat.Tomcat9">
+    <configuration name="MainProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mvc.main.MainProduct" />
+      <module name="mvc_hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mvc.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mvc.main.main" />
       <module name="mvc_hello" />
@@ -71,7 +123,7 @@
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="catalinaBase" value="C:\Users\USER\.SmartTomcat\mvc_demo_day1\mvc_hello" />
-      <option name="contextPath" value="/mvc_hello" />
+      <option name="contextPath" value="/" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
@@ -87,8 +139,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MainProduct" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Smart Tomcat.Tomcat9" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainProduct" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -119,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703844234560</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="oke">
+      <option name="closed" value="true" />
+      <created>1703844823492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703844823492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

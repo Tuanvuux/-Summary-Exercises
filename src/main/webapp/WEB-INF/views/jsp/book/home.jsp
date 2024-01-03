@@ -1,5 +1,5 @@
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
-
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <!DOCTYPE html>
 <html lang="en">
  <jsp:include page="header.jsp" />
@@ -12,6 +12,13 @@
   <script type="text/javascript" src="${pageContext.request.getContextPath()}/webjars/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+<form:form action="search" method="get">
+    <div class="input-group mb-3">
+      <input name="searchInput" type="text" class="form-control" placeholder="Search By Name or Author" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Search</button>
+    </div>
+  </form:form>
 
   <table class="table">
     <thead>
