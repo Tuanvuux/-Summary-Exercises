@@ -1,4 +1,4 @@
-package mvc.controller;
+package mvc.model;
 
 import mvc.entity.Products;
 

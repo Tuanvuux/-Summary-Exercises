@@ -25,7 +25,7 @@ public class Orders {
     @Column(name = "customerAddress")
     private String customerAddress;
 
-    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "order", fetch = FetchType.EAGER)
     private List<Orderdetails> orderDetails;
 
     public int getId() {

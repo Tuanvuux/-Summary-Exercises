@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a3e6a9-d1e6-402f-9352-d26fe8a855d3" name="Changes" comment="oke" />
+    <list default="true" id="24a3e6a9-d1e6-402f-9352-d26fe8a855d3" name="Changes" comment="oke">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/controller/RestBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/entity/RESTBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/repository/RESTBookRepositiry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/product/Orderdetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/product/myOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/controller/CartSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/model/CartSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/entity/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/entity/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/product/Cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/product/Cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/product/Checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/product/Checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/product/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/product/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mvc/controller/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/controller/CartSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvc/entity/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mvc/entity/Orders.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +37,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/mvc/controller/ProductController.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />

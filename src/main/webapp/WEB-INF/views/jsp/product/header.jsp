@@ -24,7 +24,7 @@
            <a class="nav-link active" aria-current="page" href="/myCart">My Cart</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#">My Orders</a>
+           <a class="nav-link" href="/myOrder">My Orders</a>
          </li>
        </ul>
      </div>

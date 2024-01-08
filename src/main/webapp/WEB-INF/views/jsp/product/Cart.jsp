@@ -36,10 +36,10 @@
                     <td>${cartItem.products.unitPrice}</td>
                     <td>${cartItem.quantity}</td>
                     <td>
-                        <form action="${pageContext.request.contextPath}/removeFromCart/${cartItem.products.id}" method="post">
-                            <input type="submit" class="btn btn-sm btn-danger" value="Remove" />
-                        </form>
 
+                        <form action="${pageContext.request.contextPath}/removeFromCart/${cartItem.products.id}" method="post">
+                                                   <input type="submit" class="btn btn-sm btn-danger" value="Remove" />
+                                               </form>
 
                     </td>
                 </tr>
@@ -47,9 +47,12 @@
         </tbody>
     </table>
 
-   <center> <form action="checkout" method="post">
-        <input type="submit" class="btn btn-primary" value="Checkout" />
-    </form>
+   <center>
+
+         <c:if test="${cartList.size() !=0 }">
+
+                <a href="/checkout"><input type="submit" class="btn btn-primary" value="Checkout" /></a>
+         </c:if>
     </center>
 
 </body>
